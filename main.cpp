@@ -1,6 +1,10 @@
 
 #include "Chain.h"
 
+
+// g++ -std=c++17 main.cpp -o program  && ./program
+
+
 int main(int argc, char *argv[]) {
 
     for(int i = 0; i < argc; i++){
