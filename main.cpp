@@ -1,7 +1,16 @@
 
 #include "Chain.h"
 
+
+// g++ -std=c++17 main.cpp -o program  && ./program
+void fun()
+{
+  cout << "Extra stuff "<< endl;
+}
+
 int main(int argc, char *argv[]) {
+
+  fun();
 
     for(int i = 0; i < argc; i++){
         cout << "Argument "<< i << " = " << argv[i] << endl;
